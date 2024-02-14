@@ -1,0 +1,22 @@
+<div class="user-setting-container">
+    <ul class="user-setting">
+        <li class="user-setting-item">
+            <a href="{% url 'user_panel_dashboard' %}">
+                <span class="icon"><i class="fa-solid fa-user"></i></span>
+                <span class="text">پنل کاربری</span>
+            </a>
+        </li>
+        <li class="user-setting-item">
+            <a href="{% url 'edit_profile_page' %}">
+                <span class="icon"><i class="fa-solid fa-user-pen"></i></span>
+                <span class="text">ویرایش اطلاعات</span>
+            </a>
+        </li>
+        <li class="user-setting-item">
+            <a href="{% url 'change_password_page' %}">
+                <span class="icon"><i class="fa-solid fa-lock"></i></span>
+                <span class="text">تغییر کلمه عبور</span>
+            </a>
+        </li>
+    </ul>
+</div>
